@@ -1,0 +1,23 @@
+{
+  "name": "blanchard_paul_4_14042023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drxgg/Blanchard_Paul_4_14042023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drxgg/Blanchard_Paul_4_14042023/issues"
+  },
+  "homepage": "https://github.com/drxgg/Blanchard_Paul_4_14042023#readme",
+  "dependencies": {
+    "sass": "^1.62.0"
+  }
+}
