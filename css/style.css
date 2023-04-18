@@ -1,12 +1,13 @@
-body {
-  background-color: red;
+.container_image {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid grey;
 }
 
-header {
-  color: rgb(37, 207, 65);
-}
-header img {
-  width: 50px;
+.fa-location-dot {
+  width: 30px;
+  height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
