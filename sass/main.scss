@@ -1,6 +1,5 @@
-@import './variables';
+@import './base/variables';
 
+@import './layout/default';
 
-@import './layouts/default';
-
-@import './compnents/header';
+@import './components/header';
