@@ -1,0 +1,62 @@
+footer {
+	background-color: #353535;
+	width: 100%;
+
+	ul {
+		padding: 0;
+		list-style: none;
+		line-height: 30px;
+		margin-top: 16px 0 0 0;
+	}
+
+	a {
+		color: white;
+	}
+
+	.foot-contain {
+		display: flex;
+		flex-direction: column;
+		padding: 22px 25px;
+	}
+
+	.logo-pdp {
+		width: 20%;
+	}
+
+	i {
+		margin-right: 11px;
+	}
+
+    li {
+        color: white;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+	footer {
+		.foot-contain {
+			flex-direction: row-reverse;
+			justify-content: flex-start;
+			align-items: center;
+			gap: 20px;
+			padding-right: 50px;
+		}
+
+		.logo-pdp {
+			width: 10%;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+
+		li {
+			padding: 0 10px;
+		}
+	}
+}

@@ -1,6 +1,14 @@
-@import './base/variables';
+@import './utils/variables';
 
 @import './layout/header';
+@import './layout/footer';
+
 
 @import './components/card';
 @import './components/icon';
+@import './components/section-banner';
+@import './components/section-cta';
+@import './components/section-restaurant';
+@import './components/section-fonctionnement';
+
+@import './base/homepage';

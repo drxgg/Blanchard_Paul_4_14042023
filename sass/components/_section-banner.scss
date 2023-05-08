@@ -1,0 +1,20 @@
+.section-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEAEA;
+    width: 100%;
+    box-shadow: inset 0px 3px 3px 0px rgba($shadow , $alpha: 0.3);
+
+}
+
+.section-banner i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-banner h3 {
+    font-size: 20px;
+    font-family: $text-font;
+}

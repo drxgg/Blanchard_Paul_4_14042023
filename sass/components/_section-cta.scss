@@ -1,0 +1,48 @@
+.section-cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    background: #F7F7F7;
+    width: 100%;
+}
+
+.section-cta > h3 {
+    width: 70%;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bolder;
+    font-family: var(--police-texte);
+    margin-bottom: 0;
+
+}
+
+.section-cta > p {
+    font-size: 1em;
+    width: 80%;
+    text-align: center;
+}
+
+.bouton-glob{
+    margin: 0 auto;
+    width: 60%;
+    height: 60px;
+    border-radius: 50px;
+    background: linear-gradient(170deg, $secondary, $primary);
+    border: none;
+    color: white;
+    box-shadow:  0px 5px 6px rgba($shadow , $alpha: 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.bouton-glob:hover {
+    background: linear-gradient(170deg, lighten($secondary, 10%), lighten($primary, 10%));
+    box-shadow:  0px 10px 6px rgba($shadow , $alpha: 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+    .bouton-glob {
+        width: 20%;
+    }
+}
