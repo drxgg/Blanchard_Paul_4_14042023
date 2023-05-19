@@ -1,4 +1,4 @@
-.section-banner{
+.section-banniere{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,13 +8,18 @@
 
 }
 
-.section-banner i {
+.section-banniere i {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.section-banner h3 {
+.section-banniere h3 {
     font-size: 20px;
     font-family: $text-font;
+}
+
+.fa-location-dot {
+    width: 30px;
+    height: 30px;
 }

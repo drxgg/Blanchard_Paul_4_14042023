@@ -1,0 +1,73 @@
+/* Loader CSS */
+#loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: fadeOut 0.5s ease-in-out forwards 2s;
+}
+
+#loader span {
+  font-family: 'Shrikhand', cursive;
+  font-size: 2.5rem;
+  animation: bounce 0.6s ease-in-out infinite alternate;
+}
+
+#loader span:nth-child(1) {
+  color: #9356DC;
+  animation-delay: 0s;
+}
+
+#loader span:nth-child(2) {
+  color: #FF79DA;
+  animation-delay: 0.2s;
+}
+
+#loader span:nth-child(3),
+#loader span:nth-child(6) {
+  color: #99E2D0;
+  animation-delay: 0.4s;
+}
+
+#loader span:nth-child(4) {
+  color: #9356DC;
+  animation-delay: 0.6s;
+}
+
+#loader span:nth-child(5),
+#loader span:nth-child(7) {
+  color: #FF79DA;
+  animation-delay: 0.8s;
+}
+
+#loader span:nth-child(8) {
+  color: #99E2D0;
+  animation-delay: 1s;
+}
+
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

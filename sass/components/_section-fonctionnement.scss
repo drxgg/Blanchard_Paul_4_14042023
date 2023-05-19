@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     width:100%;
-    row-gap: 30px;
     padding: 0px 30px;
     box-sizing: border-box;
     
@@ -15,7 +14,7 @@
     align-self: baseline;
 }
 
-.conteneur-btn {
+.conteneur-bouton {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +23,7 @@
     width: 100%;
 }
 
-.btn-fonctionnement{
+.bouton-fonctionnement{
     display: flex;
     align-items: center;
     column-gap: 2px;
@@ -38,7 +37,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.btn-fonctionnement:hover  {
+.bouton-fonctionnement:hover  {
     background-color: lighten(#F6F6F6, 10%);
     box-shadow:  0px 10px 6px rgba($shadow , $alpha: 0.3);
     transition: all 0.3s ease-in-out;
@@ -46,7 +45,7 @@
 }
 
 /*Mettre le chiffre sur la bordure gauche du bouton */
-.btn-fonctionnement span{
+.bouton-fonctionnement span{
 
     border-radius: 50%;
     height: 20px;
@@ -60,14 +59,14 @@
     color: $color-white;
 }
 
-.contenu-btn{
+.contenu-bouton {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.contenu-btn p{
+.contenu-bouton p{
     font-size: 18px;
     font-family: $text-font;
     margin: 0;
@@ -76,18 +75,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .conteneur-btn {
+    .conteneur-bouton {
         flex-direction: row;
         justify-content: space-between;
         width: 90%;
     }
 
-    .btn-fonctionnement{
+    .bouton-fonctionnement{
         width: 29%;
     }
 
     .titre-section-fonctionnement {
-        padding-left: 140px;
+        padding-left: 6%;
     }
 }
 

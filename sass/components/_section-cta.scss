@@ -7,8 +7,8 @@
     width: 100%;
 }
 
-.section-cta > h3 {
-    width: 70%;
+.section-cta h3 {
+    width: 60%;
     text-align: center;
     font-size: 1.6em;
     font-weight: bolder;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.bouton-glob{
+.bouton-global {
     margin: 0 auto;
     width: 60%;
     height: 60px;
@@ -35,14 +35,14 @@
     transition: all 0.3s ease-in-out;
 }
 
-.bouton-glob:hover {
+.bouton-global:hover {
     background: linear-gradient(170deg, lighten($secondary, 10%), lighten($primary, 10%));
     box-shadow:  0px 10px 6px rgba($shadow , $alpha: 0.3);
     transition: all 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
-    .bouton-glob {
+    .bouton-global {
         width: 20%;
     }
 }

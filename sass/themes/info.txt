@@ -1,2 +1,0 @@
-C’est ici qu'on stock le code thématique, exemple : un style customisé pour Pâques ou pour Noël.
-On ne l’utilisera pas dans notre site.

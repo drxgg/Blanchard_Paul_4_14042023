@@ -11,9 +11,10 @@ footer {
 
 	a {
 		color: white;
+		text-decoration: none;
 	}
 
-	.foot-contain {
+	.foot-contenu {
 		display: flex;
 		flex-direction: column;
 		padding: 22px 25px;
@@ -35,7 +36,7 @@ footer {
 
 @media screen and (min-width: 768px) {
 	footer {
-		.foot-contain {
+		.foot-contenu {
 			flex-direction: row-reverse;
 			justify-content: flex-start;
 			align-items: center;
