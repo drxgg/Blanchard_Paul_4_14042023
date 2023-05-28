@@ -45,7 +45,7 @@
 }
 
 /*Mettre le chiffre sur la bordure gauche du bouton */
-.bouton-fonctionnement span{
+.bouton-fonctionnement .nombre_bouton{
 
     border-radius: 50%;
     height: 20px;
@@ -66,7 +66,7 @@
     justify-content: space-around;
 }
 
-.contenu-bouton p{
+.bouton-fonctionnement .titre-indicatif{
     font-size: 18px;
     font-family: $text-font;
     margin: 0;

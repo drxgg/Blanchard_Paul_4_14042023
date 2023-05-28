@@ -342,7 +342,7 @@ footer li {
 }
 
 /*Mettre le chiffre sur la bordure gauche du bouton */
-.bouton-fonctionnement span {
+.bouton-fonctionnement .nombre_bouton {
   border-radius: 50%;
   height: 20px;
   width: 20px;
@@ -362,7 +362,7 @@ footer li {
   justify-content: space-around;
 }
 
-.contenu-bouton p {
+.bouton-fonctionnement .titre-indicatif {
   font-size: 18px;
   font-family: "roboto", sans-serif;
   margin: 0;
@@ -569,7 +569,9 @@ body {
   border: none;
 }
 
-.entrees, .plats, .desserts {
+.entrees,
+.plats,
+.desserts {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -583,6 +585,16 @@ body {
   font-weight: 300;
   width: 100%;
   padding-left: 20px;
+}
+
+.meal_title.underline::after {
+  content: "";
+  display: flex;
+  justify-content: flex-start;
+  width: 10%;
+  height: 2px;
+  background-color: #99E2D0;
+  margin: 10px 0 0;
 }
 
 .article-menu {
@@ -599,28 +611,29 @@ body {
   margin-bottom: 10px;
 }
 
+.article-menu .description {
+  width: 88%;
+  transition: all 0.5s ease-in-out;
+}
+
 .article-menu .prix {
-  position: absolute;
-  left: 85%;
-  top: 0%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
+  width: 15%;
   font-size: 15px;
   font-weight: 700;
 }
 
 .article-menu .prix p {
   padding-top: 20px;
+  margin-right: 10px;
 }
 
-.article-menu:hover .prix {
-  transform: translateX(-40px);
-  transition: all 0.5s;
-  background-color: white;
-  z-index: 3;
+.article-menu:hover .description {
+  width: 65%;
+  transition: all 0.5s ease-in-out;
 }
 
 .choix-selectionne {
@@ -654,6 +667,7 @@ body {
   width: 100%;
   font-size: 18px;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -663,6 +677,7 @@ body {
   width: 100%;
   font-size: 15px;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
