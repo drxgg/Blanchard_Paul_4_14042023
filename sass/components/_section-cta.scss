@@ -31,13 +31,13 @@
     background: linear-gradient(170deg, $secondary, $primary);
     border: none;
     color: white;
-    box-shadow:  0px 5px 6px rgba($shadow , $alpha: 0.3);
+    box-shadow:  0px 5px 6px rgba($shadow, $alpha, 0.3);
     transition: all 0.3s ease-in-out;
 }
 
 .bouton-global:hover {
     background: linear-gradient(170deg, lighten($secondary, 10%), lighten($primary, 10%));
-    box-shadow:  0px 10px 6px rgba($shadow , $alpha: 0.3);
+    box-shadow:  0px 10px 6px rgba($shadow, $alpha, 0.3);
     transition: all 0.3s ease-in-out;
 }
 
